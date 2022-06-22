@@ -10,7 +10,7 @@ ______________________________
 
 ![](https://github.com/srkkaran/del_Sampletest/blob/main/tempimg/icons8-escape-96.png)
 
-<a href="https://icons8.com/icons/set/break">Image creadit link</a>
+[Image credit link](https://icons8.com/icons/set/break)
 ###### signing off for a break thank you !
 ______________________________
 
