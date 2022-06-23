@@ -1,6 +1,14 @@
 # del_Sampletest
 email sample test nodejs 
 
+## Installation and RUN
+
+```sh
+npm install 
+
+npm run DEVSTART
+```
+
 ________
 ### URL LINKS for testing
 
