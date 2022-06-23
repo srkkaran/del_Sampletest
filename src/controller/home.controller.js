@@ -1,4 +1,4 @@
 function homeController(req, res) {
-  res.json('welcome');
+  res.json('welcome to email verification test demo');
 }
 module.exports = homeController;

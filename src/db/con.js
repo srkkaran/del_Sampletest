@@ -6,6 +6,7 @@ async function con() {
     console.log('DB Connected');
   } catch (error) {
     console.log(' catch this error in a middleware');
+    // error catch middleware coding should be added
   }
 }
 
