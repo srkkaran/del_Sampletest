@@ -5,6 +5,8 @@
   "main": "./src/server.js",
   "scripts": {
     "DEVSTART": "npx nodemon ./src/server.js",
+    "lintcheck": "npx eslint --ext .js ./src",
+    "lintinfo": " npx eslint --env-info",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

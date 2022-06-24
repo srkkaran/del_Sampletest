@@ -12,6 +12,7 @@ app.use('/', Router);
 const port = process.env.port || 4000;
 app.listen(port, () => {
   if (process.env.NODE_ENV === 'DEV') {
+    // eslint-disable-next-line no-console
     console.log('Server running in port :', port);
   }
 });

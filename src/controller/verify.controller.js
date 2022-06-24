@@ -9,12 +9,13 @@ function verifyController(req, res) {
       }
       if (decoded) {
         // update the email as verified
+        // eslint-disable-next-line no-console
         console.log(decoded);
         res.status(200).json('Email Verified !!');
       }
     });
   } else {
-    res.status(511).json('verification failed')
+    res.status(511).json('verification failed');
   }
 }
 

@@ -16,23 +16,23 @@ function sendVerificationController(req, res) {
         // sorry for implementing a bad auth for fast result and demo purpose
         // eslint-disable-next-line max-len
         // here only jwt token is user for verification no cross check is implemented with the database
-        console.log('Please use this token with http://localhost:3000/verify?{token} for verification test', token);
+        // console.log('Please use this token with http://localhost:3000/verify?{token} for verification test', token);
         res.status(200).json(`Please use this token with http://localhost:3000/verify?{token} for verification test : ${token}`);
-        //Please use the above generated token for verification with http://localhost:3000/verify?{token}
+        //  Please use the above generated token for verification with http://localhost:3000/verify?{token}
         // since i need to add gmail here and give access to nodemails would make my email spam
-        // If possible you can give me smpt server to configure for testing with nodemail will 
-        // configure in minutes thank you 
+        // If possible you can give me smpt server to configure for testing with nodemail will
+        // configure in minutes thank you
       } else {
-        res.status(511).json(`${email} not found in database , please create an email id first`)
+        res.status(511).json(`${email} not found in database , please create an email id first`);
       }
+    // eslint-disable-next-line no-unused-vars
     }).catch((e) => {
-      console.log('catch this error in middleware ', e);
-      res.status(501).json('A internal error occurred please try again later')
+      // console.log('catch this error in middleware ', e);
+      res.status(501).json('A internal error occurred please try again later');
     });
-  }else{
-    res.status(511).json('Email address required to proceed')
+  } else {
+    res.status(511).json('Email address required to proceed');
   }
-  
 }
 
 module.exports = sendVerificationController;
