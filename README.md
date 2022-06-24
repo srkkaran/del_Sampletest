@@ -6,7 +6,10 @@ email sample test nodejs
 ```sh
 npm install 
 
+npm lintcheck
+
 npm run DEVSTART
+
 ```
 
 ________
